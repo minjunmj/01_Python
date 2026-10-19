@@ -60,8 +60,6 @@ def do_delete(user_id):
 
     return True
 
-            
-
 def do_retrieve():
     """
         전체 회원 목록을 반환 합니다

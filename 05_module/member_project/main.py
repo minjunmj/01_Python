@@ -19,5 +19,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
     print(member.do_select_one('pcwk01'))
+    print(member.do_delete('pcwk01'))
+    print(f"del 후: {member.do_select_one('pcwk01')}")
